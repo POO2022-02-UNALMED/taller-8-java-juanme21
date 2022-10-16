@@ -43,7 +43,7 @@ public class TestPortero {
 		if (f.toString().equals(comp)) {
 			ok = true;
 		}
-		assertTrue(ok, "Hay un problema en el metodo toString de la clase Portero" + f.toString());
+		assertTrue(ok, "Hay un problema en el metodo toString de la clase Portero");
     }
 	
 	@Test
