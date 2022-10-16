@@ -32,7 +32,7 @@ public class Jugador extends Futbolista {
 				+ ". Ha marcado "+ golesMarcados;
 	}
 
-	@Override
+	
 	public int compareTo(Futbolista o) {
 		return Math.abs(this.getEdad()-o.getEdad());
 	}

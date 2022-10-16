@@ -31,7 +31,7 @@ public abstract class Futbolista implements Comparable<Futbolista> {
 				+ " juega de "+ posicion;
 	}
 
-	@Override
+
 	public int compareTo(Futbolista o) {
 		return 0;
 	}
